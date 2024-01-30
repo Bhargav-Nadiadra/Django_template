@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  margin: 0;
+}
+
+.heading{
+@apply text-9xl bg-amber-400;
+}
